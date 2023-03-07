@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check and confirm password</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawsome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="input-box">
+            <input id="createPw" type="password" required>
+            <label>Create password</label>
+        </div>
+        <div class="input-box">
+            <input id="confirmPw" type="password" required disabled>
+            <label>Confirm password</label>
+            <i class="fa-solid fa-eye-slash show"></i>
+        </div>
+        <div class="alert">
+            <i class="fa-solid fa-circle-exclamation errorIcon"></i>
+            <span class="text">Enter at least 8 characters</span>
+        </div>
+        <div class="input-box button">
+            <input id="button" type="button" value="check" required disabled>
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

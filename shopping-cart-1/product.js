@@ -1,0 +1,52 @@
+const products = [
+  {
+    id: 0,
+    name: "T-shirt 1",
+    price: 29.99,
+    instock: 10,
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
+    imgSrc: "image/1.jpg",
+    // numberOfUnits: 1,
+  },
+  {
+    id: 1,
+    name: "T-shirt 2",
+    price: 29.99,
+    instock: 5,
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
+    imgSrc: "image/2.jpg",
+  },
+  {
+    id: 2,
+    name: "T-shirt 3",
+    price: 29.99,
+    instock: 8,
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
+    imgSrc: "image/3.jpg",
+  },
+  {
+    id: 3,
+    name: "T-shirt 4",
+    price: 29.99,
+    instock: 2,
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
+    imgSrc: "image/4.jpg",
+  },
+  {
+    id: 4,
+    name: "T-shirt 5",
+    price: 29.99,
+    instock: 2,
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
+    imgSrc: "image/5.jpg",
+  },
+  {
+    id: 5,
+    name: "T-shirt 6",
+    price: 29.99,
+    instock: 6,
+    description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, error.",
+    imgSrc: "image/6.jpg",
+  },
+];
+
